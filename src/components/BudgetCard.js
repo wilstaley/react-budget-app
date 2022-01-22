@@ -25,7 +25,7 @@ export default function BudgetCard({
           <div className="d-flex align-items-baseline">
             {currencyFormatter.format(amount)}
             {max && (
-              <span className="text-muted fs-6 ms-1">
+              <span className="text-opacity-75 fs-6 ms-1">
                 / {currencyFormatter.format(max)}
               </span>
             )}
@@ -34,10 +34,12 @@ export default function BudgetCard({
         {max && (
           <ProgressBar
             className="rounded-pill"
-            variant={getProgressBarVariant(amount, max)}
-            min={0}
+            label={`${name} budget amount remaining`}
             max={max}
+            min={0}
             now={amount}
+            variant={getProgressBarVariant(amount, max)}
+            visuallyHidden
           />
         )}
         {!hideButtons && (
