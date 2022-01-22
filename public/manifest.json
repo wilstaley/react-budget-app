@@ -4,9 +4,9 @@
   "description": "Simple Budget App",
   "icons": [
     {
-      "src": "icons/icon.jpg",
+      "src": "icons/icon.png",
       "sizes": "1024x1024",
-      "type": "image/jpg"
+      "type": "image/png"
     }
   ],
   "start_url": "/",
