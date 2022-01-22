@@ -1,0 +1,16 @@
+{
+  "name": "Budget",
+  "short_name": "Budget",
+  "description": "Simple Budget App",
+  "icons": [
+    {
+      "src": "icons/icon.jpg",
+      "sizes": "1024x1024",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#198754",
+  "background_color": "#FFFFFF"
+}
