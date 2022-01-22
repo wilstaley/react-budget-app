@@ -4,7 +4,7 @@
   "description": "Simple Budget App",
   "icons": [
     {
-      "src": "icons/icon.png",
+      "src": "icons/icon-1024.png",
       "sizes": "1024x1024",
       "type": "image/png"
     }
