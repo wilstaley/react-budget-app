@@ -1,5 +1,5 @@
-import { useBudgets } from "../contexts/BudgetsContext"
-import BudgetCard from "./BudgetCard"
+import { useBudgets } from '../contexts/BudgetsContext'
+import BudgetCard from './BudgetCard'
 
 export default function TotalBudgetCard() {
   const { expenses, budgets } = useBudgets()
